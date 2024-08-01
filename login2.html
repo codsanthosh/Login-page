@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login page</title>
+  <style>
+   .form-container {
+  width:60%;  
+  margin: 300px auto;
+  padding: 10px 20px 30px;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  font-size:18px;
+  border-radius:25px;
+  
+}
+  
+.input input{
+    width:100%;
+    font-size:1.2em;
+    border-radius: 15px;
+    padding: 10px 10px;
+    box-sizing:border-box;
+    margin:5px 0px 10px;
+}
+  
+  input:focus{
+    background-color: yellow;
+    
+}
+  
+  button{
+    background-color: purple;
+    font-size:20px;
+    color:yellow;
+    margin-top:10px;
+    padding:15px 25px;
+    border-radius:8px;
+    border: 1px solid yellow;
+}
+  
+  .but{
+    text-align:center;
+  }
+  
+  h1{
+    text-align: center;
+    color: red;
+  }
+  body{
+    background-image: url("back1.jpg");
+    
+  }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+   
+  <form>
+    <b><h1>Login</h1></b>
+    
+    <div class="input">
+      <label for="username">Username:</label><br>
+      <input type="text" id="username" name="username" placeholder="username" required>
+        <br>
+     </div>
+    
+    <div class="input">
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" placeholder="password"required>
+        <br><br>
+    </div>
+    
+    <div class="but">
+      <button type="button">Submit</button>
+     </div>
+  </form>
+    </div>
+</body>
+</html>
